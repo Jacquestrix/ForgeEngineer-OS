@@ -1,0 +1,1 @@
+const sb=document.getElementById('sidebar');document.getElementById('menu-toggle').onclick=()=>sb.classList.toggle('collapsed');function tick(){const d=new Date();time.textContent=d.toLocaleTimeString([], {hour:'2-digit',minute:'2-digit'});date.textContent=d.toLocaleDateString([], {weekday:'long',day:'numeric',month:'short'});}tick();setInterval(tick,1000);
