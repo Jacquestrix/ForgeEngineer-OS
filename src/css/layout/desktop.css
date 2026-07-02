@@ -1,0 +1,18 @@
+/* ==========================================================
+   ForgeEngineer OS
+   File: desktop.css
+   Purpose: Main desktop layout
+   Version: 0.1.0
+   ========================================================== */
+
+#app {
+    display: grid;
+    grid-template-rows: 64px 1fr 32px;
+    height: 100vh;
+}
+
+#desktop {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    overflow: hidden;
+}

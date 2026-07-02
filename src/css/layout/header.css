@@ -1,0 +1,61 @@
+/* ==========================================================
+   ForgeEngineer OS
+   File: header.css
+   Purpose: Application Header
+   ========================================================== */
+
+#header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 var(--space-lg);
+
+    background: var(--color-surface);
+
+    border-bottom: 1px solid var(--color-border);
+
+}
+
+.logo {
+
+    font-size: var(--font-size-lg);
+
+    font-weight: 600;
+
+    color: var(--color-primary);
+
+}
+
+.search {
+
+    flex: 1;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.search input {
+
+    width: 400px;
+
+    padding: 10px 16px;
+
+    background: var(--color-panel);
+
+    border: 1px solid var(--color-border);
+
+    border-radius: var(--radius-md);
+
+    color: var(--color-text);
+
+}
+
+.user {
+
+    font-weight: 500;
+
+}

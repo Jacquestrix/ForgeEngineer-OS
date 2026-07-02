@@ -1,0 +1,32 @@
+/* ==========================================================
+   Typography
+   ========================================================== */
+
+h1 {
+
+    font-size: var(--font-size-xl);
+
+    font-weight: 600;
+
+}
+
+h2 {
+
+    font-size: var(--font-size-lg);
+
+}
+
+p {
+
+    font-size: var(--font-size-md);
+
+    color: var(--color-text-secondary);
+
+}
+
+input,
+button {
+
+    font: inherit;
+
+}

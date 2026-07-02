@@ -1,0 +1,51 @@
+/* ==========================================================
+   ForgeEngineer OS
+   File: workspace.css
+   Purpose: Main Workspace
+   Version: 0.1.0
+   ========================================================== */
+
+#workspace {
+
+    padding: var(--space-xl);
+
+    overflow-y: auto;
+
+    background: var(--color-background);
+
+}
+
+.dashboard-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    gap: var(--space-lg);
+
+}
+/* ==========================================================
+   Dashboard Header
+   ========================================================== */
+
+.dashboard-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: var(--space-xl);
+
+}
+
+.dashboard-date {
+
+    text-align: right;
+
+    color: var(--color-text-secondary);
+
+    font-size: var(--font-size-sm);
+
+}

@@ -1,315 +1,165 @@
-# 🎨 ForgeEngineer Design Guide
-
-> "Consistency creates confidence."
-
----
-
-# Design Philosophy
-
-ForgeEngineer OS is designed to feel like an Engineering Command Center.
-
-Every screen should feel calm, organised and purposeful.
-
-The interface must reduce mental load rather than add to it.
-
----
-
-# Core Principles
-
-- Simplicity over complexity.
-- Function before decoration.
-- Consistency before creativity.
-- Every pixel has a purpose.
-- Information should be available at a glance.
-
----
-
-# Colour Palette
-
-Primary
-
-Forge Blue
-
-#0D6EFD
-
----
-
-Background
-
-Deep Graphite
-
-#14181D
-
----
-
-Surface
-
-Dark Slate
-
-#1F252C
-
----
-
-Cards
-
-Soft Charcoal
-
-#28303A
-
----
-
-Success
-
-Emerald
-
-#16C784
-
----
-
-Warning
-
-Amber
-
-#F5A623
-
----
-
-Danger
-
-Crimson
-
-#DC3545
-
----
-
-Text
-
-White
-
-#FFFFFF
-
----
-
-Secondary Text
-
-Grey
-
-#A9B2BE
-
----
-
-# Typography
+Color Palette
+Element	Color
+Background	#0D1117
+Sidebar	#161B22
+Panels	#1F2630
+Borders	#30363D
+Primary	#2F81F7
+Success	#3FB950
+Warning	#D29922
+Danger	#F85149
+White Text	#F0F6FC
+Secondary Text	#8B949E
+Typography
 
 Primary Font
 
 Segoe UI
 
-Fallback
+Fallbacks
 
+Inter
+Roboto
 Arial
+sans-serif
 
-Sans-serif
+Professional.
 
----
+Readable.
 
-Headings
+Windows friendly.
 
-Bold
+Corners
 
-Clean
-
-Simple
-
----
-
-Body Text
-
-Readable
-
-Minimal
-
-No decorative fonts
-
----
-
-# Border Radius
-
-Cards
-
-14px
+Nothing should have giant rounded corners.
 
 Buttons
 
+6px
+
+Cards
+
+8px
+
+Windows
+
 10px
+Shadows
 
-Panels
+Very subtle.
 
-14px
+Nothing floating like a mobile app.
 
----
+Think:
 
-# Shadows
+Industrial.
 
-Soft only.
+Solid.
 
-Never harsh.
+Professional.
 
-Large blur.
+Icons
 
-Low opacity.
+We'll standardize on:
 
----
+Lucide Icons
 
-# Animations
+Why?
 
-Duration
+Lightweight
+Modern
+Consistent
+Free
+SVG based
+Easy to style
+Animations
 
-250ms
+Fast.
 
-Smooth
+Smooth.
 
-Ease-in-out
+Purposeful.
 
-Subtle
+Examples:
 
-Never distracting.
+Sidebar expands
+Windows fade in
+Notifications slide down
+Buttons gently glow on hover
+Cards lift slightly
 
----
+No flashy effects.
 
-# Buttons
+Grid
+
+Everything aligned.
+
+Spacing units
+
+4px
+
+8px
+
+16px
+
+24px
+
+32px
+
+48px
+
+Never random.
+
+Dashboard Cards
+
+Every card follows the same structure.
+
+┌──────────────────────────────┐
+
+ICON
+
+TITLE
+
+CONTENT
+
+FOOTER
+
+└──────────────────────────────┘
+
+Consistency makes the interface feel polished.
+
+Buttons
+
+Three styles.
 
 Primary
 
-Forge Blue
+🔵 Blue
 
 Secondary
 
-Dark Surface
+⚪ Grey
 
 Danger
 
-Crimson
+🔴 Red
 
----
+Nothing else.
 
-Hover
+Windows (Future)
 
-Slight lift
+Applications will open like desktop windows.
 
-Slight glow
-
----
-
-# Cards
-
-Every card should contain:
-
-Icon
+Every window will have:
 
 Title
 
-Content
+Icon
 
-Optional Action
+Minimize
 
-Status
+Maximize
 
-Cards must always align to a grid.
+Close
 
----
-
-# Icons
-
-Use emoji during Genesis.
-
-Future versions may replace them with SVG icons.
-
----
-
-# Layout
-
-Header
-
-80px
-
-Sidebar
-
-240px Expanded
-
-70px Collapsed
-
-Workspace
-
-Flexible
-
-Footer
-
-Minimal
-
----
-
-# Dashboard Layout
-
-Mission Control
-
-Printer Status
-
-ForgeCore
-
-Weather
-
-Daily Reflection
-
-Progress
-
-Friday Dock
-
----
-
-# Daily Reflection
-
-Every morning begins with one meaningful thought.
-
-The user chooses the source.
-
-Examples
-
-Bible Verse
-
-Engineering Quote
-
-Learning Tip
-
-Personal Goal
-
----
-
-# Friday AI
-
-Friday is not a chatbot.
-
-Friday is an engineering companion.
-
-Her purpose is to:
-
-Keep Jacques moving.
-
-Reduce mental load.
-
-Celebrate progress.
-
-Suggest the next mission.
-
-Never become intrusive.
-
----
-
-# ForgeEngineer Motto
-
-Build more.
-
-Finish more.
-
-Learn continuously.
-
-Engineer with purpose.
+Exactly like a real operating system.

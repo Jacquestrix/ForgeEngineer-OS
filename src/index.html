@@ -1,1 +1,143 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1.0'><title>ForgeEngineer OS RC2</title><link rel='stylesheet' href='style.css'></head><body><header class='header'><button id='menu-toggle' class='icon-btn'>☰</button><div class='branding'><h1>🔥 ForgeEngineer OS</h1><p>A Personal Engineering Operating System</p></div><div class='status-bar'><div>👤 Jacques</div><div>🟢 ForgeCore Online</div><div id='time'>--:--</div><div id='date'>Loading...</div></div></header><div class='shell'><aside class='sidebar' id='sidebar'><nav><button class='nav active'>🏠 Dashboard</button><button class='nav'>🎯 Mission Control</button><button class='nav'>🖨 Printer Hub</button><button class='nav'>📦 ForgeVault</button><button class='nav'>📋 Inspection Toolkit</button><button class='nav'>🧪 Workshop</button><button class='nav'>🎓 Learning Lab</button><button class='nav'>🤖 Friday AI</button><button class='nav'>⚙ Settings</button></nav></aside><main class='workspace'><section class='hero'><h2>🎯 Mission Control</h2><p>Current Sprint: Genesis RC2</p><div class='progress'><div class='progress-fill' style='width:35%'></div></div><p>Progress:35%</p></section><div class='grid'><div class='card'><h3>🖥 ForgeCore</h3><p>Status: Online</p></div><div class='card'><h3>🖨 Printer Hub</h3><p>K1C Ready</p></div><div class='card'><h3>🌦 Weather</h3><p>Coming Soon</p></div><div class='card'><h3>📚 Learning</h3><p>Flexbox Layout</p></div></div></main></div><div class='friday'>🤖 Friday</div><script src='script.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ==========================================================
+         ForgeEngineer OS
+         Version : 0.1.0
+         Author  : Jacques Gericke
+         ========================================================== -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ForgeEngineer OS</title>
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ==========================================================
+         APPLICATION
+         ========================================================== -->
+
+    <div id="app">
+
+        <!-- ================= HEADER ================= -->
+
+        <header id="header">
+
+            <div class="logo">
+                ForgeEngineer OS
+            </div>
+
+            <div class="search">
+
+                <input
+                    type="text"
+                    placeholder="Search..." />
+
+            </div>
+
+            <div class="user">
+
+                Jacques
+
+            </div>
+
+        </header>
+
+        <!-- ================= MAIN ================= -->
+
+        <main id="desktop">
+
+            <!-- Sidebar -->
+
+            <aside id="sidebar">
+
+                <nav>
+
+<ul>
+
+    <li id="nav-dashboard">Dashboard</li>
+
+    <li id="nav-projects">Projects</li>
+
+    <li id="nav-tasks">Tasks</li>
+
+    <li id="nav-inspections">Inspections</li>
+
+    <li id="nav-reports">Reports</li>
+
+    <li id="nav-tools">Engineering Tools</li>
+
+    <li id="nav-printing">3D Printing</li>
+
+    <li id="nav-forgecore">ForgeCore</li>
+
+    <li id="nav-ai">Forge AI</li>
+
+    <li id="nav-settings">Settings</li>
+
+</ul>
+                </nav>
+
+            </aside>
+
+            <!-- Workspace -->
+
+<section id="workspace">
+
+    <div class="dashboard-header">
+
+        <div>
+
+            <h1>Good Morning, Jacques 👋</h1>
+
+            <p>
+                Welcome back to ForgeEngineer OS.
+            </p>
+
+        </div>
+
+        <div class="dashboard-date">
+
+            Friday<br>
+            26 June 2026
+
+        </div>
+
+    </div>
+
+<div class="dashboard-grid" id="dashboard-grid">
+
+</div>
+</section>
+        </main>
+
+        <!-- ================= STATUS BAR ================= -->
+
+        <footer id="statusbar">
+
+            <span>Ready</span>
+
+            <span>Version 0.1.0</span>
+
+            <span id="clock">--:--:--</span>
+
+        </footer>
+
+    </div>
+
+    <!-- JavaScript -->
+
+<script src="js/app.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
